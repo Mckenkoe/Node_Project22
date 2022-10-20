@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 230, 245);
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2{
+    padding: 10px;
+}
+
+.transcript{
+    background-color: white;
+    width: 50%;
+    margin: auto ;
+    margin-top: 25px;
+    padding:10px;
+    border-style: double;
+    border-width: 5px;
+}
