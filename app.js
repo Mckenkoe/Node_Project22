@@ -14,6 +14,7 @@ app.get('/', function(req,res){
     res.render('index.ejs', {title: response.data.safe_title, date: response.data.month+'/'+response.data.day+'/'+response.data.year,image: response.data.img, alt: response.data.alt, transcript: response.data.transcript});
     //fixes deploy issue I kept having
     res.sendStatus(200)
+    return;
   }) .catch(function (error) {
     // handle error
     console.log(error);
